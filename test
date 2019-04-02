@@ -1,0 +1,3 @@
+export no_proxy=localhost,127.0.0.1,all,*.dimed.local,api-int.grupodimedservices.com.br,*.dimed.com.br,10.11.101.0/24,10.11.100.0/24,10.11.101.101,avior,10.11.101.97,novaintranet,omnipdvtst,10.11.101.97,omnipdvdsv,testlinkdimed,ci-service,desenvvar17-lnx,10.50.10.74,swaggerdimed,mantisdimed
+
+gsettings set org.gnome.system.proxy ignore-hosts "['api-int.grupodimedservices.com.br','localhost', '10.11.101.232', '127.0.0.1', 'novaintranet','centauro', '*.dimed.local', '*.dimed.com.br', '10.11.101.97', '10.11.101.101','avior','omnipdvtst','10.11.101.97','omnipdvdsv','testlinkdimed','ci-service','desenvvar17-lnx','10.50.10.74','swaggerdimed','mantisdimed']"
